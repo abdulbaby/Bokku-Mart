@@ -1,0 +1,59 @@
+.Image {
+    width: 1350px;
+    height: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blue;
+}
+
+header {
+    background-color: #4CAF50;
+    color:gold;
+    padding: 10px;
+    width: 1300px;
+    text-align: center;
+    
+}
+
+nav a {
+    margin: 10px;
+    color: gold;
+    text-decoration: none;
+}
+
+form {
+    margin: 20px 0;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: gold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+@media (min-width: 319px) and (max-width: 480px) {
+    body {
+        background-color: blue;
+      }
+  }
+
+  @media (min-width: 481px) and (max-width: 1200px) {
+    body {
+      background-color: blue;
+    }
+  }
